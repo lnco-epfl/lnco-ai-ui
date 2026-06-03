@@ -1,6 +1,6 @@
 import { Box, useTheme } from '@mui/material';
 
-import { ItemType } from '@graasp/sdk';
+import { ItemType } from '@lnco-ai/sdk';
 
 import Thumbnail from '@/Thumbnail/Thumbnail.js';
 import ItemIcon, { ItemIconProps } from '@/icons/ItemIcon.js';

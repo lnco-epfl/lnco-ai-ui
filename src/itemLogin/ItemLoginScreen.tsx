@@ -9,7 +9,7 @@ import {
 } from 'react';
 import { useTranslation } from 'react-i18next';
 
-import { ItemLoginSchemaType, UUID } from '@graasp/sdk';
+import { ItemLoginSchemaType, UUID } from '@lnco-ai/sdk';
 
 import Button from '../buttons/Button/Button.js';
 import ForbiddenText from './ForbiddenText.js';

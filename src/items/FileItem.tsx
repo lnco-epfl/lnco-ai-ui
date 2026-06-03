@@ -10,7 +10,7 @@ import {
   formatFileSize,
   getFileExtra,
   getS3FileExtra,
-} from '@graasp/sdk';
+} from '@lnco-ai/sdk';
 
 import { Errors } from '@/enums/errors.js';
 

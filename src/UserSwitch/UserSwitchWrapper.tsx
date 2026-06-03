@@ -4,7 +4,7 @@ import {
 } from '@mui/icons-material';
 import { ListItemIcon, MenuItem, Typography } from '@mui/material';
 
-import { AccountType, CurrentAccount, redirect } from '@graasp/sdk';
+import { AccountType, CurrentAccount, redirect } from '@lnco-ai/sdk';
 
 import Loader from '../Loader/Loader.js';
 import { UserSwitch } from './UserSwitch.js';

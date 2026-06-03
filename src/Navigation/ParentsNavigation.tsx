@@ -2,7 +2,7 @@ import truncate from 'lodash.truncate';
 
 import { Stack, Typography } from '@mui/material';
 
-import { DiscriminatedItem } from '@graasp/sdk';
+import { DiscriminatedItem } from '@lnco-ai/sdk';
 
 import ItemMenu, { ItemMenuProps } from './ItemMenu.js';
 import NavigationLink from './common/NavigationLink.js';

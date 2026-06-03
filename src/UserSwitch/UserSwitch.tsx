@@ -13,7 +13,7 @@ import {
 
 import { MouseEventHandler, ReactElement, useState } from 'react';
 
-import { AccountType, CurrentAccount } from '@graasp/sdk';
+import { AccountType, CurrentAccount } from '@lnco-ai/sdk';
 
 import { SHORT_TEXT_WIDTH, SMALL_AVATAR_SIZE } from '../constants.js';
 import { Variant } from '../types.js';

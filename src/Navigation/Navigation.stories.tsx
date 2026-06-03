@@ -10,7 +10,7 @@ import {
   LocalFileItemFactory,
   LocalFileItemType,
   MimeTypes,
-} from '@graasp/sdk';
+} from '@lnco-ai/sdk';
 
 import { MOCK_MEMBER } from '../utils/fixtures.js';
 import HomeMenu from './HomeMenu.js';

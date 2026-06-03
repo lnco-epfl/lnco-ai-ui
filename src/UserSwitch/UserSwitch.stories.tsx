@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { expect, screen, userEvent, within } from '@storybook/test';
 
-import { AccountType } from '@graasp/sdk';
+import { AccountType } from '@lnco-ai/sdk';
 
 import { SMALL_AVATAR_SIZE } from '@/constants.js';
 

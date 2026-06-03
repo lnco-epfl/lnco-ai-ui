@@ -1,6 +1,6 @@
 import { Pagination, Stack } from '@mui/material';
 
-import { DiscriminatedItem } from '@graasp/sdk';
+import { DiscriminatedItem } from '@lnco-ai/sdk';
 
 import RowMenu, { RowMenuProps } from './RowMenu.js';
 import { NavigationElement } from './types.js';

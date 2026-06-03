@@ -4,7 +4,7 @@ import { Typography } from '@mui/material';
 
 import { LinkProps } from 'react-router-dom';
 
-import { DiscriminatedItem, ItemType } from '@graasp/sdk';
+import { DiscriminatedItem, ItemType } from '@lnco-ai/sdk';
 
 import ItemMenu, { ItemMenuProps } from './ItemMenu.js';
 import CenterAlignWrapper from './common/CenterAlignWrapper.js';

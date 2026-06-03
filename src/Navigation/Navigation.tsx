@@ -1,6 +1,6 @@
 import { Breadcrumbs, SxProps, styled } from '@mui/material';
 
-import { DiscriminatedItem } from '@graasp/sdk';
+import { DiscriminatedItem } from '@lnco-ai/sdk';
 
 import CurrentItemNavigation from './CurrentItemNavigation.js';
 import ExtraItemsNavigation, { ExtraItem } from './ExtraItemsNavigation.js';

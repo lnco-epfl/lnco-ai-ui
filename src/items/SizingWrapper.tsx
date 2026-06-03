@@ -2,7 +2,7 @@ import { Box } from '@mui/material';
 
 import { ReactNode } from 'react';
 
-import { MaxWidth } from '@graasp/sdk';
+import { MaxWidth } from '@lnco-ai/sdk';
 
 const getWidthFromSizing = (size?: MaxWidth): string => {
   switch (size) {

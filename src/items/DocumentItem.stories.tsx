@@ -1,6 +1,6 @@
 import { StoryObj } from '@storybook/react';
 
-import { ItemType } from '@graasp/sdk';
+import { ItemType } from '@lnco-ai/sdk';
 
 import TextEditor from '../TextEditor/TextEditor.js';
 import DocumentItem from './DocumentItem.js';

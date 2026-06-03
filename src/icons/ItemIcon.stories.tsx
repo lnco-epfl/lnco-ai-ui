@@ -1,6 +1,5 @@
+import { ItemType, MimeTypes } from '@lnco-ai/sdk';
 import type { Meta, StoryObj } from '@storybook/react';
-
-import { ItemType, MimeTypes } from '@graasp/sdk';
 
 import { TABLE_CATEGORIES } from '../utils/storybook.js';
 import ItemIcon from './ItemIcon.js';
@@ -88,13 +87,6 @@ export const App: Story = {
   },
 };
 
-export const H5P: Story = {
-  name: 'H5P',
-  args: {
-    type: ItemType.H5P,
-  },
-};
-
 export const Link: Story = {
   args: {
     type: ItemType.LINK,
@@ -104,12 +96,6 @@ export const Link: Story = {
 export const Shortcut: Story = {
   args: {
     type: ItemType.SHORTCUT,
-  },
-};
-
-export const EtherPad: Story = {
-  args: {
-    type: ItemType.ETHERPAD,
   },
 };
 

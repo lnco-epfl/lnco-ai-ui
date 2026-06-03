@@ -7,7 +7,7 @@ import {
   UUID,
   getIframeResizeHeightCookie,
   setIframeResizeHeightCookie,
-} from '@graasp/sdk';
+} from '@lnco-ai/sdk';
 
 import { IFRAME_MIN_HEIGHT } from '../constants.js';
 import ResizingIcon from '../icons/ResizingIcon.js';

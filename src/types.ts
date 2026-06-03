@@ -1,6 +1,6 @@
 import { Direction } from '@mui/material';
 
-import { Context, UnionOfConst } from '@graasp/sdk';
+import { Context, UnionOfConst } from '@lnco-ai/sdk';
 
 export enum Variant {
   TEXT = 'text',

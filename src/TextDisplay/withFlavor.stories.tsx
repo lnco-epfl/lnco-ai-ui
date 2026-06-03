@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { DocumentItemExtraFlavor } from '@graasp/sdk';
+import { DocumentItemExtraFlavor } from '@lnco-ai/sdk';
 
 import TextDisplay from './TextDisplay.js';
 import { HTML_CONTENT } from './fixtures.js';

@@ -5,7 +5,7 @@ import {
   AlignmentType,
   DescriptionPlacement,
   DescriptionPlacementType,
-} from '@graasp/sdk';
+} from '@lnco-ai/sdk';
 
 import withCaption from './withCaption.js';
 

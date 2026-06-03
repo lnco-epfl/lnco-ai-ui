@@ -8,7 +8,7 @@ import {
   CompleteMember,
   ItemLoginSchemaType,
   PackedDocumentItemFactory,
-} from '@graasp/sdk';
+} from '@lnco-ai/sdk';
 
 import Card from '@/Card/Card.js';
 

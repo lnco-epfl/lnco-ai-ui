@@ -12,7 +12,7 @@ import {
 import { useState } from 'react';
 import { Link, LinkProps } from 'react-router-dom';
 
-import { DiscriminatedItem } from '@graasp/sdk';
+import { DiscriminatedItem } from '@lnco-ai/sdk';
 
 export const Separator = <ChevronRightIcon data-testid='NavigateNextIcon' />;
 

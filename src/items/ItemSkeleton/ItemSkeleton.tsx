@@ -1,6 +1,6 @@
 import { Skeleton } from '@mui/material';
 
-import { DiscriminatedItem, ItemType, UnionOfConst } from '@graasp/sdk';
+import { DiscriminatedItem, ItemType, UnionOfConst } from '@lnco-ai/sdk';
 
 import { SCREEN_MAX_HEIGHT } from '../../constants.js';
 

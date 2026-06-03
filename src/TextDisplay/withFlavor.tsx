@@ -1,6 +1,6 @@
 import { Alert, AlertTitle, Typography } from '@mui/material';
 
-import { DocumentItemExtraFlavor } from '@graasp/sdk';
+import { DocumentItemExtraFlavor } from '@lnco-ai/sdk';
 
 const Title = ({
   title,

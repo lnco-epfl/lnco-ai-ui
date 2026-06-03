@@ -1,4 +1,4 @@
-import { ThumbnailSize } from '@graasp/sdk';
+import { ThumbnailSize } from '@lnco-ai/sdk';
 
 export const DRAWER_WIDTH = 240;
 export const DEFAULT_DIRECTION = 'ltr';

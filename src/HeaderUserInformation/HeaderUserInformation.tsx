@@ -2,7 +2,7 @@ import { Avatar, Skeleton, Tooltip, Typography, styled } from '@mui/material';
 
 import { AriaAttributes, MouseEventHandler } from 'react';
 
-import { UUID } from '@graasp/sdk';
+import { UUID } from '@lnco-ai/sdk';
 
 import { SHORT_TEXT_WIDTH, SMALL_AVATAR_SIZE } from '../constants.js';
 

@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { expect, fn, screen, userEvent, within } from '@storybook/test';
 
-import { FlagType } from '@graasp/sdk';
+import { FlagType } from '@lnco-ai/sdk';
 
 import ItemFlagDialog from './ItemFlagDialog.js';
 

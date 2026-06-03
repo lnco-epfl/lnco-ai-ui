@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { expect, within } from '@storybook/test';
 
-import { CompleteMember } from '@graasp/sdk';
+import { CompleteMember } from '@lnco-ai/sdk';
 
 import BuildIcon from '@/icons/BuildIcon.js';
 

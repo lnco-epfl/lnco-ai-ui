@@ -11,7 +11,7 @@ import {
 
 import { ReactNode } from 'react';
 
-import { AccountType, CurrentAccount } from '@graasp/sdk';
+import { AccountType, CurrentAccount } from '@lnco-ai/sdk';
 
 type Props = {
   buttonText: string;

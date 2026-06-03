@@ -7,7 +7,7 @@ import {
   MaxWidth,
   MimeTypes,
   UnionOfConst,
-} from '@graasp/sdk';
+} from '@lnco-ai/sdk';
 
 import { MOCK_MEMBER } from '../utils/fixtures.js';
 import FileItem from './FileItem.js';

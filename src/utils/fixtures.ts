@@ -1,4 +1,4 @@
-import { Member, MemberFactory } from '@graasp/sdk';
+import { Member, MemberFactory } from '@lnco-ai/sdk';
 
 export const MOCK_MEMBER: Member = {
   id: 'id',

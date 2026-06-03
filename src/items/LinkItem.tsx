@@ -2,7 +2,7 @@ import { Alert, Box, Link as MUILink, styled } from '@mui/material';
 
 import { Fragment, memo, useEffect, useState } from 'react';
 
-import { LinkItemType, getLinkExtra } from '@graasp/sdk';
+import { LinkItemType, getLinkExtra } from '@lnco-ai/sdk';
 
 import LinkCard from '@/Card/LinkCard.js';
 

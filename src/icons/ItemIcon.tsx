@@ -1,4 +1,12 @@
 import {
+  ItemType,
+  LocalFileItemExtra,
+  MimeTypes,
+  S3FileItemExtra,
+  UnionOfConst,
+  getMimetype,
+} from '@lnco-ai/sdk';
+import {
   AppWindowIcon,
   CableIcon,
   ClapperboardIcon,
@@ -15,18 +23,7 @@ import {
 
 import { ReactNode } from 'react';
 
-import {
-  ItemType,
-  LocalFileItemExtra,
-  MimeTypes,
-  S3FileItemExtra,
-  UnionOfConst,
-  getMimetype,
-} from '@graasp/sdk';
-
 import { StyledImage } from '../StyledComponents/StyledBaseComponents.js';
-import EtherpadIcon from './EtherpadIcon.js';
-import H5PIcon from './H5PIcon.js';
 
 const MAX_ICON_SIZE = '25px';
 
@@ -42,7 +39,7 @@ export type ItemIconProps = {
   color?: string;
   /**
    * @deprecated Use the `mimetype` prop.
-   * To extract the mimetype from the item extra use the `getMimetype` function exported from @graasp/sdk
+   * To extract the mimetype from the item extra use the `getMimetype` function exported from @lnco-ai/sdk
    * Item extra used to define the mimetype
    */
   extra?: LocalFileItemExtra | S3FileItemExtra;
@@ -132,14 +129,6 @@ const ItemIcon = ({
     }
     case ItemType.APP: {
       Icon = AppWindowIcon;
-      break;
-    }
-    case ItemType.H5P: {
-      Icon = H5PIcon;
-      break;
-    }
-    case ItemType.ETHERPAD: {
-      Icon = EtherpadIcon;
       break;
     }
     case 'upload': {

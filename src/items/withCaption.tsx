@@ -10,7 +10,7 @@ import {
   DiscriminatedItem,
   MimeTypes,
   getMimetype,
-} from '@graasp/sdk';
+} from '@lnco-ai/sdk';
 
 import TextDisplay from '@/TextDisplay/TextDisplay.js';
 

@@ -1435,20 +1435,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@graasp/sdk@npm:5.4.0":
-  version: 5.4.0
-  resolution: "@graasp/sdk@npm:5.4.0"
-  dependencies:
-    "@faker-js/faker": "npm:9.2.0"
-    filesize: "npm:10.1.6"
-    js-cookie: "npm:3.0.5"
-  peerDependencies:
-    date-fns: ^3 || ^4.0.0
-    uuid: ^9 || ^10 || ^11.0.0
-  checksum: 10/787def776e690aa3a07438c907e6d5adb6c016db243e52fdc1511e35d057380d2d51d98d28bfef5f9f6101987f85c4cf43ba89a0d4d56f970b3801b4b8f2acd7
-  languageName: node
-  linkType: hard
-
 "@graasp/stylis-plugin-rtl@npm:2.2.0":
   version: 2.2.0
   resolution: "@graasp/stylis-plugin-rtl@npm:2.2.0"
@@ -1459,115 +1445,6 @@ __metadata:
   checksum: 10/4b873aa7465c894ff5422f851522feda36bf73923f7a859befc7d5c8049e660a80a103090b977d01fad5c7d2c7ab92e313a7fa3eb263e2ce41bdb9597762edac
   languageName: node
   linkType: hard
-
-"@graasp/ui@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@graasp/ui@workspace:."
-  dependencies:
-    "@commitlint/cli": "npm:19.6.0"
-    "@commitlint/config-conventional": "npm:19.6.0"
-    "@emotion/cache": "npm:~11.14.0"
-    "@emotion/react": "npm:11.14.0"
-    "@emotion/styled": "npm:11.14.0"
-    "@eslint/compat": "npm:1.2.4"
-    "@eslint/eslintrc": "npm:3.2.0"
-    "@eslint/js": "npm:9.16.0"
-    "@graasp/sdk": "npm:5.4.0"
-    "@graasp/stylis-plugin-rtl": "npm:2.2.0"
-    "@mui/icons-material": "npm:6.2.0"
-    "@mui/lab": "npm:6.0.0-beta.19"
-    "@mui/material": "npm:6.2.0"
-    "@storybook/addon-a11y": "npm:8.4.7"
-    "@storybook/addon-actions": "npm:8.4.7"
-    "@storybook/addon-coverage": "npm:1.0.4"
-    "@storybook/addon-docs": "npm:8.4.7"
-    "@storybook/addon-essentials": "npm:8.4.7"
-    "@storybook/addon-links": "npm:8.4.7"
-    "@storybook/experimental-addon-test": "npm:8.4.7"
-    "@storybook/react": "npm:8.4.7"
-    "@storybook/react-vite": "npm:8.4.7"
-    "@storybook/test-runner": "npm:0.20.1"
-    "@tanstack/react-query": "npm:5.62.7"
-    "@testing-library/react": "npm:16.1.0"
-    "@testing-library/user-event": "npm:14.5.2"
-    "@trivago/prettier-plugin-sort-imports": "npm:5.2.0"
-    "@types/katex": "npm:^0.16.7"
-    "@types/lodash.truncate": "npm:4.4.9"
-    "@types/node": "npm:22.10.2"
-    "@types/react": "npm:18.3.16"
-    "@types/react-dom": "npm:18.3.5"
-    "@types/react-router-dom": "npm:5.3.3"
-    "@types/react-text-mask": "npm:5.4.14"
-    "@types/stylis": "npm:4.2.7"
-    "@types/uuid": "npm:10.0.0"
-    "@typescript-eslint/eslint-plugin": "npm:8.18.0"
-    "@typescript-eslint/parser": "npm:8.18.0"
-    "@vitejs/plugin-react": "npm:4.3.4"
-    "@vitest/browser": "npm:2.1.8"
-    "@vitest/ui": "npm:2.1.8"
-    concurrently: "npm:9.1.0"
-    cross-env: "npm:7.0.3"
-    date-fns: "npm:4.1.0"
-    eslint: "npm:^9.15.0"
-    eslint-config-prettier: "npm:^9.1.0"
-    eslint-plugin-import: "npm:^2.31.0"
-    eslint-plugin-jsx-a11y: "npm:6.10.2"
-    eslint-plugin-n: "npm:17.15.0"
-    eslint-plugin-prettier: "npm:^5.2.1"
-    eslint-plugin-promise: "npm:^7.2.1"
-    globals: "npm:15.13.0"
-    happy-dom: "npm:15.11.7"
-    http-server: "npm:14.1.1"
-    http-status-codes: "npm:2.3.0"
-    husky: "npm:9.1.7"
-    interweave: "npm:13.1.0"
-    jsdom: "npm:25.0.1"
-    katex: "npm:0.16.15"
-    lodash.truncate: "npm:4.4.2"
-    lucide-react: "npm:0.468.0"
-    playwright: "npm:1.49.1"
-    prettier: "npm:3.4.2"
-    react: "npm:18.3.1"
-    react-cookie-consent: "npm:9.0.0"
-    react-dnd: "npm:16.0.1"
-    react-dnd-html5-backend: "npm:16.0.1"
-    react-dom: "npm:18.3.1"
-    react-i18next: "npm:15.1.4"
-    react-quill: "npm:2.0.0"
-    react-rnd: "npm:10.4.13"
-    react-router-dom: "npm:6.28.0"
-    react-test-renderer: "npm:18.3.1"
-    sass: "npm:1.82.0"
-    storybook: "npm:8.4.7"
-    stylis: "npm:4.3.4"
-    tsc-alias: "npm:1.8.10"
-    typescript: "npm:5.7.2"
-    uuid: "npm:11.0.3"
-    vite: "npm:6.0.3"
-    vite-plugin-dts: "npm:4.3.0"
-    vite-plugin-istanbul: "npm:6.0.2"
-    vitest: "npm:2.1.8"
-    wait-on: "npm:8.0.1"
-  peerDependencies:
-    "@emotion/cache": ~11.10.7 || ~11.11.0 || ~11.13.0 || ~11.14.0
-    "@emotion/react": ~11.10.6 || ~11.11.0 || ~11.13.0 || ~11.14.0
-    "@emotion/styled": ~11.10.6 || ~11.11.0 || ~11.13.0 || ~11.14.0
-    "@graasp/sdk": ^4.29.0 || ^5.0.0
-    "@graasp/stylis-plugin-rtl": ^2
-    "@graasp/translations": ^1.23.0
-    "@mui/icons-material": ^6
-    "@mui/lab": ^6
-    "@mui/material": ^6
-    i18next: ^22.4.15 || ^23.0.0 || ^24.0.0
-    katex: 0.16.15
-    lucide-react: ^0
-    react: ^18.0.0
-    react-dom: ^18.0.0
-    react-i18next: ^15.0.0
-    react-router-dom: ^6.11.0
-    stylis: ^4.1.3
-  languageName: unknown
-  linkType: soft
 
 "@hapi/hoek@npm:^9.0.0, @hapi/hoek@npm:^9.3.0":
   version: 9.3.0
@@ -2011,6 +1888,129 @@ __metadata:
   checksum: 10/6e3360c9f2e66c1a457eeacebcba0d57ae24f02d29c6673792a138bf4f8ec477ed7621c26b099834d5ca31e901da45278cdc1cc533221f25fbbb8f16c51fb0b7
   languageName: node
   linkType: hard
+
+"@lnco-ai/sdk@npm:1.0.0":
+  version: 1.0.0
+  resolution: "@lnco-ai/sdk@npm:1.0.0"
+  dependencies:
+    "@faker-js/faker": "npm:9.2.0"
+    filesize: "npm:10.1.6"
+    js-cookie: "npm:3.0.5"
+  peerDependencies:
+    date-fns: ^3 || ^4.0.0
+    uuid: ^9 || ^10 || ^11.0.0
+  checksum: 10/f7251566dbd7a11715a8613d7a7ef7f1839dad59f9aa63f47e0877c6345a7202bea3671f2b1d4d3a07aeaf111c76f91de33469d05800b2250314a4d532e58b88
+  languageName: node
+  linkType: hard
+
+"@lnco-ai/ui@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@lnco-ai/ui@workspace:."
+  dependencies:
+    "@commitlint/cli": "npm:19.6.0"
+    "@commitlint/config-conventional": "npm:19.6.0"
+    "@emotion/cache": "npm:~11.14.0"
+    "@emotion/react": "npm:11.14.0"
+    "@emotion/styled": "npm:11.14.0"
+    "@eslint/compat": "npm:1.2.4"
+    "@eslint/eslintrc": "npm:3.2.0"
+    "@eslint/js": "npm:9.16.0"
+    "@graasp/stylis-plugin-rtl": "npm:2.2.0"
+    "@lnco-ai/sdk": "npm:1.0.0"
+    "@mui/icons-material": "npm:6.2.0"
+    "@mui/lab": "npm:6.0.0-beta.19"
+    "@mui/material": "npm:6.2.0"
+    "@storybook/addon-a11y": "npm:8.4.7"
+    "@storybook/addon-actions": "npm:8.4.7"
+    "@storybook/addon-coverage": "npm:1.0.4"
+    "@storybook/addon-docs": "npm:8.4.7"
+    "@storybook/addon-essentials": "npm:8.4.7"
+    "@storybook/addon-links": "npm:8.4.7"
+    "@storybook/experimental-addon-test": "npm:8.4.7"
+    "@storybook/react": "npm:8.4.7"
+    "@storybook/react-vite": "npm:8.4.7"
+    "@storybook/test-runner": "npm:0.20.1"
+    "@tanstack/react-query": "npm:5.62.7"
+    "@testing-library/react": "npm:16.1.0"
+    "@testing-library/user-event": "npm:14.5.2"
+    "@trivago/prettier-plugin-sort-imports": "npm:5.2.0"
+    "@types/katex": "npm:^0.16.7"
+    "@types/lodash.truncate": "npm:4.4.9"
+    "@types/node": "npm:22.10.2"
+    "@types/react": "npm:18.3.16"
+    "@types/react-dom": "npm:18.3.5"
+    "@types/react-router-dom": "npm:5.3.3"
+    "@types/react-text-mask": "npm:5.4.14"
+    "@types/stylis": "npm:4.2.7"
+    "@types/uuid": "npm:10.0.0"
+    "@typescript-eslint/eslint-plugin": "npm:8.18.0"
+    "@typescript-eslint/parser": "npm:8.18.0"
+    "@vitejs/plugin-react": "npm:4.3.4"
+    "@vitest/browser": "npm:2.1.8"
+    "@vitest/ui": "npm:2.1.8"
+    concurrently: "npm:9.1.0"
+    cross-env: "npm:7.0.3"
+    date-fns: "npm:4.1.0"
+    eslint: "npm:^9.15.0"
+    eslint-config-prettier: "npm:^9.1.0"
+    eslint-plugin-import: "npm:^2.31.0"
+    eslint-plugin-jsx-a11y: "npm:6.10.2"
+    eslint-plugin-n: "npm:17.15.0"
+    eslint-plugin-prettier: "npm:^5.2.1"
+    eslint-plugin-promise: "npm:^7.2.1"
+    globals: "npm:15.13.0"
+    happy-dom: "npm:15.11.7"
+    http-server: "npm:14.1.1"
+    http-status-codes: "npm:2.3.0"
+    husky: "npm:9.1.7"
+    interweave: "npm:13.1.0"
+    jsdom: "npm:25.0.1"
+    katex: "npm:0.16.15"
+    lodash.truncate: "npm:4.4.2"
+    lucide-react: "npm:0.468.0"
+    playwright: "npm:1.49.1"
+    prettier: "npm:3.4.2"
+    react: "npm:18.3.1"
+    react-cookie-consent: "npm:9.0.0"
+    react-dnd: "npm:16.0.1"
+    react-dnd-html5-backend: "npm:16.0.1"
+    react-dom: "npm:18.3.1"
+    react-i18next: "npm:15.1.4"
+    react-quill: "npm:2.0.0"
+    react-rnd: "npm:10.4.13"
+    react-router-dom: "npm:6.28.0"
+    react-test-renderer: "npm:18.3.1"
+    sass: "npm:1.82.0"
+    storybook: "npm:8.4.7"
+    stylis: "npm:4.3.4"
+    tsc-alias: "npm:1.8.10"
+    typescript: "npm:5.7.2"
+    uuid: "npm:11.0.3"
+    vite: "npm:6.0.3"
+    vite-plugin-dts: "npm:4.3.0"
+    vite-plugin-istanbul: "npm:6.0.2"
+    vitest: "npm:2.1.8"
+    wait-on: "npm:8.0.1"
+  peerDependencies:
+    "@emotion/cache": ~11.10.7 || ~11.11.0 || ~11.13.0 || ~11.14.0
+    "@emotion/react": ~11.10.6 || ~11.11.0 || ~11.13.0 || ~11.14.0
+    "@emotion/styled": ~11.10.6 || ~11.11.0 || ~11.13.0 || ~11.14.0
+    "@graasp/stylis-plugin-rtl": ^2
+    "@graasp/translations": ^1.23.0
+    "@lnco-ai/sdk": 1.0.0
+    "@mui/icons-material": ^6
+    "@mui/lab": ^6
+    "@mui/material": ^6
+    i18next: ^22.4.15 || ^23.0.0 || ^24.0.0
+    katex: 0.16.15
+    lucide-react: ^0
+    react: ^18.0.0
+    react-dom: ^18.0.0
+    react-i18next: ^15.0.0
+    react-router-dom: ^6.11.0
+    stylis: ^4.1.3
+  languageName: unknown
+  linkType: soft
 
 "@mdx-js/react@npm:^3.0.0":
   version: 3.1.0

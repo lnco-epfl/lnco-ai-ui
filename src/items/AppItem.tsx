@@ -7,7 +7,7 @@ import {
   Member,
   appendQueryParamToUrl,
   getAppExtra,
-} from '@graasp/sdk';
+} from '@lnco-ai/sdk';
 
 import withCollapse from '../Collapse/withCollapse.js';
 import { SCREEN_MAX_HEIGHT } from '../constants.js';

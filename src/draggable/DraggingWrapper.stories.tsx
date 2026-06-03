@@ -4,7 +4,7 @@ import { Box } from '@mui/material';
 
 import { BrowserRouter } from 'react-router-dom';
 
-import { FolderItemFactory, FolderItemType } from '@graasp/sdk';
+import { FolderItemFactory, FolderItemType } from '@lnco-ai/sdk';
 
 import Card from '@/Card/Card.js';
 import ItemBadges from '@/ItemBadges/ItemBadges.js';

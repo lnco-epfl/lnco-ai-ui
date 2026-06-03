@@ -1,20 +1,14 @@
 {
-  "name": "@graasp/ui",
-  "version": "5.4.7",
-  "description": "React components for the Graasp ecosystem.",
-  "author": "Graasp",
+  "name": "@lnco-ai/ui",
+  "version": "1.0.0",
+  "description": "React components for the LNCO.ai ecosystem.",
+  "author": "LNCO.AI Team",
   "contributors": [
-    "Juan Carlos Farah",
-    "Kim Lan Phan Hoang",
-    "Abdallah Al Chami",
-    "Alexandre Chau",
-    "Basile Spaenlehauer",
-    "Jérémy La Scala",
-    "Thibault Reidy"
+    "Yannick Mijsters"
   ],
   "license": "AGPL-3.0-only",
   "repository": {
-    "url": "https://github.com/graasp/graasp-ui"
+    "url": "https://github.com/lnco-epfl/lnco-ai-ui"
   },
   "type": "module",
   "files": [
@@ -82,9 +76,9 @@
     "@emotion/cache": "~11.10.7 || ~11.11.0 || ~11.13.0 || ~11.14.0",
     "@emotion/react": "~11.10.6 || ~11.11.0 || ~11.13.0 || ~11.14.0",
     "@emotion/styled": "~11.10.6 || ~11.11.0 || ~11.13.0 || ~11.14.0",
-    "@graasp/sdk": "^4.29.0 || ^5.0.0",
     "@graasp/stylis-plugin-rtl": "^2",
     "@graasp/translations": "^1.23.0",
+    "@lnco-ai/sdk": "1.0.0",
     "@mui/icons-material": "^6",
     "@mui/lab": "^6",
     "@mui/material": "^6",
@@ -106,8 +100,8 @@
     "@eslint/compat": "1.2.4",
     "@eslint/eslintrc": "3.2.0",
     "@eslint/js": "9.16.0",
-    "@graasp/sdk": "5.4.0",
     "@graasp/stylis-plugin-rtl": "2.2.0",
+    "@lnco-ai/sdk": "1.0.0",
     "@mui/icons-material": "6.2.0",
     "@mui/lab": "6.0.0-beta.19",
     "@mui/material": "6.2.0",

@@ -12,7 +12,7 @@ import {
 
 import { useState } from 'react';
 
-import { FlagType } from '@graasp/sdk';
+import { FlagType } from '@lnco-ai/sdk';
 
 import Button from '../buttons/Button/Button.js';
 import { FLAG_LIST_MAX_HEIGHT } from '../constants.js';

@@ -8,7 +8,7 @@ import {
   DiscriminatedItem,
   ItemLoginSchemaType,
   UUID,
-} from '@graasp/sdk';
+} from '@lnco-ai/sdk';
 
 import CustomInitialLoader from '../CustomInitialLoader/CustomInitialLoader.js';
 import ForbiddenText from './ForbiddenText.js';

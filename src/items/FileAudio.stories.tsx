@@ -1,6 +1,6 @@
 import type { StoryObj } from '@storybook/react';
 
-import { MimeTypes } from '@graasp/sdk';
+import { MimeTypes } from '@lnco-ai/sdk';
 
 import { TABLE_CATEGORIES } from '../utils/storybook.js';
 import FileAudio from './FileAudio.js';

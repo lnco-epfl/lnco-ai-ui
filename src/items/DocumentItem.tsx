@@ -1,6 +1,6 @@
 import { Typography } from '@mui/material';
 
-import { DocumentItemType, getDocumentExtra } from '@graasp/sdk';
+import { DocumentItemType, getDocumentExtra } from '@lnco-ai/sdk';
 
 import TextDisplay from '@/TextDisplay/TextDisplay.js';
 import { withFlavor } from '@/TextDisplay/withFlavor.js';

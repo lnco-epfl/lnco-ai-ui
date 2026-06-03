@@ -5,7 +5,7 @@ import {
   responsiveFontSizes,
 } from '@mui/material';
 
-import { Context } from '@graasp/sdk';
+import { Context } from '@lnco-ai/sdk';
 
 export const PRIMARY_COLOR = '#000000';
 export const SECONDARY_COLOR = '#FFFFFF';

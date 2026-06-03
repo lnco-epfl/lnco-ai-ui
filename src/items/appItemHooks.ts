@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-import { DiscriminatedItem, LocalContext, UUID } from '@graasp/sdk';
+import { DiscriminatedItem, LocalContext, UUID } from '@lnco-ai/sdk';
 
 export type Token = string;
 
@@ -16,6 +16,8 @@ type CalibrationFontSize = (typeof CALIBRATION_FONT_SIZES)[number];
 type ScreenCalibration = {
   scale?: number;
   fontSize?: CalibrationFontSize;
+  participantId?: string;
+  participantCode?: string;
 };
 
 const isCalibrationFontSize = (value: unknown): value is CalibrationFontSize =>
@@ -116,32 +118,33 @@ const useAppCommunication = ({
           }
 
           case POST_MESSAGE_KEYS.POST_CALIBRATION_SCALE: {
-            const scale = payload?.screenCalibration?.scale;
-            const fontSize = payload?.screenCalibration?.fontSize;
-            const hasScale = scale !== undefined;
-            const hasFontSize = fontSize !== undefined;
+            const { scale, fontSize, participantId, participantCode } =
+              payload?.screenCalibration ?? {};
+
+            if (scale === undefined && fontSize === undefined) return;
+
             if (
-              (!hasScale && !hasFontSize) ||
-              (hasScale &&
-                (typeof scale !== 'number' ||
-                  Number.isNaN(scale) ||
-                  scale <= 0.5 ||
-                  scale >= 3)) ||
-              (fontSize !== undefined && !isCalibrationFontSize(fontSize))
-            ) {
+              scale !== undefined &&
+              (typeof scale !== 'number' ||
+                Number.isNaN(scale) ||
+                scale <= 0.5 ||
+                scale >= 3)
+            )
               return;
-            }
+
+            if (fontSize !== undefined && !isCalibrationFontSize(fontSize))
+              return;
 
             try {
-              const screenCalibration: ScreenCalibration = {
-                ...(hasScale ? { scale } : {}),
-                ...(fontSize !== undefined ? { fontSize } : {}),
-              };
-
               localStorage.setItem(
-                `lnco_screen_calibration`,
+                'lnco_screen_calibration',
                 JSON.stringify({
-                  screenCalibration,
+                  screenCalibration: {
+                    ...(scale !== undefined && { scale }),
+                    ...(fontSize !== undefined && { fontSize }),
+                    ...(participantId !== undefined && { participantId }),
+                    ...(participantCode !== undefined && { participantCode }),
+                  },
                   timestamp: Date.now(),
                   calibrationAppId: item.id,
                 }),

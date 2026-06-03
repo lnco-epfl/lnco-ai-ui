@@ -2,7 +2,7 @@ import { Meta, StoryObj } from '@storybook/react';
 
 import { Container } from '@mui/material';
 
-import { MaxWidth } from '@graasp/sdk';
+import { MaxWidth } from '@lnco-ai/sdk';
 
 import { SizingWrapper } from './SizingWrapper.js';
 

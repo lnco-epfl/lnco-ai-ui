@@ -10,7 +10,7 @@ import {
 
 import { useState } from 'react';
 
-import { ItemType } from '@graasp/sdk';
+import { ItemType } from '@lnco-ai/sdk';
 
 import ItemIcon from '@/icons/ItemIcon.js';
 

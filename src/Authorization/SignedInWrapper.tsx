@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
 
-import { CurrentAccount, redirect } from '@graasp/sdk';
+import { CurrentAccount, redirect } from '@lnco-ai/sdk';
 
 import RedirectionContent from './RedirectionContent.js';
 

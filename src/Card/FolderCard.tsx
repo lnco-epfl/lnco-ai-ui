@@ -10,7 +10,7 @@ import {
 
 import { Link, LinkProps } from 'react-router-dom';
 
-import { ItemType } from '@graasp/sdk';
+import { ItemType } from '@lnco-ai/sdk';
 
 import CardThumbnail from './CardThumbnail.js';
 

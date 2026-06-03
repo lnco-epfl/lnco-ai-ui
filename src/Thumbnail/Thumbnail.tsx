@@ -1,6 +1,6 @@
 import { Skeleton, SkeletonProps, SxProps } from '@mui/material';
 
-import { ThumbnailSizeType } from '@graasp/sdk';
+import { ThumbnailSizeType } from '@lnco-ai/sdk';
 
 import { StyledImage } from '../StyledComponents/StyledBaseComponents.js';
 import { Variant } from '../types.js';

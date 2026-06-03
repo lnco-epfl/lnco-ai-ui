@@ -2,7 +2,7 @@ import { BanIcon } from 'lucide-react';
 
 import { Stack, Typography } from '@mui/material';
 
-import { UUID } from '@graasp/sdk';
+import { UUID } from '@lnco-ai/sdk';
 
 import { FORBIDDEN_TEXT } from './constants.js';
 

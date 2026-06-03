@@ -3,7 +3,7 @@ import { expect, fn, userEvent, within } from '@storybook/test';
 
 import { BrowserRouter } from 'react-router-dom';
 
-import { ItemType, LinkItemFactory } from '@graasp/sdk';
+import { ItemType, LinkItemFactory } from '@lnco-ai/sdk';
 
 import { MOCK_MEMBER } from '../utils/fixtures.js';
 import LinkItem from './LinkItem.js';

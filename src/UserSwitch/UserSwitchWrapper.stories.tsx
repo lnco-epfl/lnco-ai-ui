@@ -6,7 +6,7 @@ import {
   ItemLoginSchemaFactory,
   ItemLoginSchemaType,
   PackedFolderItemFactory,
-} from '@graasp/sdk';
+} from '@lnco-ai/sdk';
 
 import { SMALL_AVATAR_SIZE } from '@/constants.js';
 

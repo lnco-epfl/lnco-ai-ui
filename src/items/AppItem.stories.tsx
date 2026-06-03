@@ -6,7 +6,7 @@ import {
   Context,
   ItemType,
   PermissionLevel,
-} from '@graasp/sdk';
+} from '@lnco-ai/sdk';
 
 import { MOCK_MEMBER } from '../utils/fixtures.js';
 import AppItem, { CURRENT_TIMESTAMP_QUERY_PARAM } from './AppItem.js';

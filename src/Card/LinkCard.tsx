@@ -9,7 +9,7 @@ import {
   useTheme,
 } from '@mui/material';
 
-import { ItemType } from '@graasp/sdk';
+import { ItemType } from '@lnco-ai/sdk';
 
 import CardThumbnail from './components/CardThumbnail.js';
 import { CARD_HEIGHT } from './constants.js';

@@ -3,7 +3,7 @@ import { v4 } from 'uuid';
 
 import { Grid2 as Grid } from '@mui/material';
 
-import { PackedFolderItemFactory } from '@graasp/sdk';
+import { PackedFolderItemFactory } from '@lnco-ai/sdk';
 
 import ItemBadges from '@/ItemBadges/ItemBadges.js';
 

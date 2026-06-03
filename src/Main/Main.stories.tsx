@@ -5,7 +5,7 @@ import { Avatar, Box, Link, Typography } from '@mui/material';
 
 import { ReactNode } from 'react';
 
-import { Context } from '@graasp/sdk';
+import { Context } from '@lnco-ai/sdk';
 
 import CookiesBanner from '@/CookiesBanner/CookiesBanner.js';
 import MainMenu from '@/MainMenu/MainMenu.js';
